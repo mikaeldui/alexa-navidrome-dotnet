@@ -1,0 +1,6 @@
+@AlexaNavidromeSkill_HostAddress = http://localhost:5056
+
+GET {{AlexaNavidromeSkill_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
