@@ -26,6 +26,8 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+// Essentially a C# pot of https://github.com/rosskouk/asknavidrome/blob/main/skill/app.py
+
 string? NAVI_SKILL_ID = Environment.GetEnvironmentVariable("NAVI_SKILL_ID");
 string? NAVI_URL = Environment.GetEnvironmentVariable("NAVI_URL");
 string? NAVI_PORT = Environment.GetEnvironmentVariable("NAVI_PORT");
